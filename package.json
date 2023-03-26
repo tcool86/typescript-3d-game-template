@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "vite build"
+	"start": "npx http-server ./dist",
+    "build": "tsc && vite build"
   },
   "author": "Tim Cool",
   "license": "MIT",
