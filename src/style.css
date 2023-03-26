@@ -1,0 +1,15 @@
+#game {
+	display: flex;
+}
+h1 {
+	position: absolute;
+	margin: 2em;
+	color: white;
+	text-shadow: 1px 1px 4px black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}

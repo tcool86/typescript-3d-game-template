@@ -4,11 +4,17 @@
   "description": "Example projects and demos showcasing the capabilities and usage of the Pyramid game library. Learn how to integrate and utilize the library effectively in your own game development projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
   },
   "author": "Tim Cool",
   "license": "MIT",
   "dependencies": {
-    "pyramid-game-lib": "^2.1.22"
+    "pyramid-game-lib": "^2.1.25"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1"
   }
 }
